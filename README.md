@@ -8,7 +8,7 @@ A deep learning research demo for flood mapping using **Sentinel-1 SAR radar** a
 
 >  Research demonstration only — not an operational flood-warning system.
 
-** Live Demo:** 
+** Live Demo:** https://cloudresilient-sensoraware-floodmapping-d.streamlit.app/
 
 ##  Key Features
 
