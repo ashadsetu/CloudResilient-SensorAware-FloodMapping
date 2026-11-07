@@ -29,7 +29,7 @@ Python · PyTorch · Streamlit · NumPy · Pandas · Matplotlib · Plotly
 ## 💻 Run Locally
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/CloudResilient-FloodMapping.git
+git clone https://github.com/ashadsetu/CloudResilient-SensorAware-FloodMapping.git
 cd CloudResilient-FloodMapping
 
 python -m venv .venv
