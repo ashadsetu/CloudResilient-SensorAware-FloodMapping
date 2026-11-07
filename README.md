@@ -30,7 +30,7 @@ Python · PyTorch · Streamlit · NumPy · Pandas · Matplotlib · Plotly
 
 ```bash
 git clone https://github.com/ashadsetu/CloudResilient-SensorAware-FloodMapping.git
-cd CloudResilient-FloodMapping
+cd CloudResilient-SensorAware-FloodMapping
 
 python -m venv .venv
 ```
