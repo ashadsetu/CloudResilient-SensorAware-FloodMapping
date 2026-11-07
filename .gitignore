@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.DS_Store
+.ipynb_checkpoints/
+.pytest_cache/
+*.zip
+/cache/
+*.rar
+/app_assets/
+/results_one_day/
+/deploy_bundle*/
+*.egg-info/
+.idea/
+.vscode/

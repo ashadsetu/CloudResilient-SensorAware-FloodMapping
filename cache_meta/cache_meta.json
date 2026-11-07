@@ -1,0 +1,40 @@
+{
+  "preproc": {
+    "version": "2.0",
+    "img_size": 128,
+    "s1_clip": [
+      -35.0,
+      5.0
+    ],
+    "s2_scale": 10000.0,
+    "s2_clip_max": 1.5,
+    "s2_resample": "bilinear",
+    "label_resample": "nearest",
+    "ignore_index": 255,
+    "resize_img": "bilinear/align_corners=False",
+    "resize_label": "nearest"
+  },
+  "per_split": {
+    "train": {
+      "cache_hits": 0,
+      "cache_misses": 252,
+      "load_seconds": 95.97346813900003
+    },
+    "val": {
+      "cache_hits": 0,
+      "cache_misses": 89,
+      "load_seconds": 34.49662544700004
+    },
+    "test": {
+      "cache_hits": 0,
+      "cache_misses": 90,
+      "load_seconds": 33.62049612399994
+    },
+    "bolivia": {
+      "cache_hits": 0,
+      "cache_misses": 15,
+      "load_seconds": 5.42667901599998
+    }
+  },
+  "ram_gb_arrays": 0.445743104
+}

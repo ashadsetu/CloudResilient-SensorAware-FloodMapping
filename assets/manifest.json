@@ -1,0 +1,173 @@
+[
+  {
+    "chip_id": "Sri-Lanka_534068",
+    "tag": "clear_showcase",
+    "title": "Clear flood, all sensors agree",
+    "reason": "Large flooded area; the fused map is almost perfect when both sensors are available.",
+    "event": "Sri-Lanka",
+    "split": "test",
+    "flood_fraction": 0.9813,
+    "area_m2_per_cell": 1581.8453911721872,
+    "precomputed_iou": {
+      "iou_both_cloud0.0": 0.9958,
+      "iou_both_cloud0.6": 0.9941,
+      "iou_both_cloud0.9": 0.978,
+      "iou_optical_only_cloud0.0": 0.9966,
+      "iou_optical_only_cloud0.6": 0.9904,
+      "iou_optical_only_cloud0.9": 0.9641,
+      "iou_radar_only": 0.9937
+    }
+  },
+  {
+    "chip_id": "Bolivia_103757",
+    "tag": "cloud_trap",
+    "title": "Optical looks great — until the clouds arrive",
+    "reason": "Optical-only is accurate on clear imagery but loses the most accuracy at cloud severity 0.6.",
+    "event": "Bolivia",
+    "split": "bolivia",
+    "flood_fraction": 0.4044,
+    "area_m2_per_cell": 1548.2670888154983,
+    "precomputed_iou": {
+      "iou_both_cloud0.0": 0.7362,
+      "iou_both_cloud0.6": 0.6931,
+      "iou_both_cloud0.9": 0.6873,
+      "iou_optical_only_cloud0.0": 0.7332,
+      "iou_optical_only_cloud0.6": 0.6653,
+      "iou_optical_only_cloud0.9": 0.6578,
+      "iou_radar_only": 0.7496
+    }
+  },
+  {
+    "chip_id": "Bolivia_432776",
+    "tag": "fusion_wins",
+    "title": "Fusion beats either sensor alone",
+    "reason": "Under cloud 0.6 the fused map beats both radar-only and cloud-degraded optical-only.",
+    "event": "Bolivia",
+    "split": "bolivia",
+    "flood_fraction": 0.4575,
+    "area_m2_per_cell": 1547.3166965199177,
+    "precomputed_iou": {
+      "iou_both_cloud0.0": 0.598,
+      "iou_both_cloud0.6": 0.6542,
+      "iou_both_cloud0.9": 0.646,
+      "iou_optical_only_cloud0.0": 0.5639,
+      "iou_optical_only_cloud0.6": 0.6086,
+      "iou_optical_only_cloud0.9": 0.5992,
+      "iou_radar_only": 0.6313
+    }
+  },
+  {
+    "chip_id": "Pakistan_849790",
+    "tag": "radar_struggles",
+    "title": "Where radar alone is confused",
+    "reason": "Smooth non-water surfaces / wet soil: radar-only is far worse than clear optical.",
+    "event": "Pakistan",
+    "split": "test",
+    "flood_fraction": 0.6646,
+    "area_m2_per_cell": 1346.5516130806511,
+    "precomputed_iou": {
+      "iou_both_cloud0.0": 0.7448,
+      "iou_both_cloud0.6": 0.7293,
+      "iou_both_cloud0.9": 0.7322,
+      "iou_optical_only_cloud0.0": 0.7568,
+      "iou_optical_only_cloud0.6": 0.7464,
+      "iou_optical_only_cloud0.9": 0.7353,
+      "iou_radar_only": 0.4752
+    }
+  },
+  {
+    "chip_id": "Sri-Lanka_450918",
+    "tag": "hard_miss",
+    "title": "A failure case (honest example)",
+    "reason": "Highest missed-flood fraction for the fused model at the calibrated threshold — shows what the guarantee does NOT cover per image.",
+    "event": "Sri-Lanka",
+    "split": "test",
+    "flood_fraction": 0.0434,
+    "area_m2_per_cell": 1587.8726996200312,
+    "precomputed_iou": {
+      "iou_both_cloud0.0": 0.2146,
+      "iou_both_cloud0.6": 0.1749,
+      "iou_both_cloud0.9": 0.1405,
+      "iou_optical_only_cloud0.0": 0.2044,
+      "iou_optical_only_cloud0.6": 0.1794,
+      "iou_optical_only_cloud0.9": 0.1518,
+      "iou_radar_only": 0.0233
+    }
+  },
+  {
+    "chip_id": "Paraguay_40936",
+    "tag": "no_flood",
+    "title": "No flooding in this tile",
+    "reason": "Ground truth has no flood pixels; any predicted flood is a false alarm (miss rate is undefined here).",
+    "event": "Paraguay",
+    "split": "test",
+    "flood_fraction": 0.0,
+    "area_m2_per_cell": 1456.2349147478883,
+    "precomputed_iou": {
+      "iou_both_cloud0.0": 0.0,
+      "iou_both_cloud0.6": 0.0,
+      "iou_both_cloud0.9": 0.0,
+      "iou_optical_only_cloud0.0": 0.0,
+      "iou_optical_only_cloud0.6": 0.0,
+      "iou_optical_only_cloud0.9": 0.0,
+      "iou_radar_only": 0.0
+    }
+  },
+  {
+    "chip_id": "Pakistan_664885",
+    "tag": "small_flood",
+    "title": "Small flooded patches",
+    "reason": "Only a small fraction of the tile is flooded.",
+    "event": "Pakistan",
+    "split": "test",
+    "flood_fraction": 0.0329,
+    "area_m2_per_cell": 1344.478588164818,
+    "precomputed_iou": {
+      "iou_both_cloud0.0": 0.2326,
+      "iou_both_cloud0.6": 0.1995,
+      "iou_both_cloud0.9": 0.1873,
+      "iou_optical_only_cloud0.0": 0.2679,
+      "iou_optical_only_cloud0.6": 0.2016,
+      "iou_optical_only_cloud0.9": 0.1806,
+      "iou_radar_only": 0.0816
+    }
+  },
+  {
+    "chip_id": "Bolivia_129334",
+    "tag": "bolivia_good",
+    "title": "Held-out region: Bolivia (works)",
+    "reason": "Bolivia was never seen in training; the calibrated threshold was NOT tuned for this region.",
+    "event": "Bolivia",
+    "split": "bolivia",
+    "flood_fraction": 0.6576,
+    "area_m2_per_cell": 1546.997904648711,
+    "precomputed_iou": {
+      "iou_both_cloud0.0": 0.7659,
+      "iou_both_cloud0.6": 0.7661,
+      "iou_both_cloud0.9": 0.7586,
+      "iou_optical_only_cloud0.0": 0.7631,
+      "iou_optical_only_cloud0.6": 0.7688,
+      "iou_optical_only_cloud0.9": 0.7623,
+      "iou_radar_only": 0.7686
+    }
+  },
+  {
+    "chip_id": "Bolivia_379434",
+    "tag": "bolivia_shift",
+    "title": "Held-out region: Bolivia (struggles)",
+    "reason": "Under distribution shift the missed-flood target is not guaranteed.",
+    "event": "Bolivia",
+    "split": "bolivia",
+    "flood_fraction": 0.0406,
+    "area_m2_per_cell": 1541.761800980216,
+    "precomputed_iou": {
+      "iou_both_cloud0.0": 0.0677,
+      "iou_both_cloud0.6": 0.076,
+      "iou_both_cloud0.9": 0.0711,
+      "iou_optical_only_cloud0.0": 0.0709,
+      "iou_optical_only_cloud0.6": 0.0759,
+      "iou_optical_only_cloud0.9": 0.0687,
+      "iou_radar_only": 0.098
+    }
+  }
+]

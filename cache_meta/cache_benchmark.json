@@ -1,0 +1,8 @@
+{
+  "uncached_tiff_s_per_chip": 0.29709650216665295,
+  "cached_npz_s_per_chip": 0.002315095666669246,
+  "equivalence_checked_chips": 6,
+  "fingerprint_invalidation_ok": true,
+  "first_build_s_per_chip_this_run": 0.3808470957896827,
+  "approx_seconds_saved_per_epoch_vs_uncached_reads": 74.2849144379959
+}

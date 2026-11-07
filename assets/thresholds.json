@@ -1,0 +1,62 @@
+{
+  "0.05": {
+    "both": {
+      "threshold": 0.148,
+      "feasible": true,
+      "n_cal_flood_chips": 45,
+      "n_cal_chips": 53
+    },
+    "radar_only": {
+      "threshold": 0.168,
+      "feasible": true,
+      "n_cal_flood_chips": 45,
+      "n_cal_chips": 53
+    },
+    "optical_only": {
+      "threshold": 0.147,
+      "feasible": true,
+      "n_cal_flood_chips": 45,
+      "n_cal_chips": 53
+    }
+  },
+  "0.10": {
+    "both": {
+      "threshold": 0.17200000000000001,
+      "feasible": true,
+      "n_cal_flood_chips": 45,
+      "n_cal_chips": 53
+    },
+    "radar_only": {
+      "threshold": 0.188,
+      "feasible": true,
+      "n_cal_flood_chips": 45,
+      "n_cal_chips": 53
+    },
+    "optical_only": {
+      "threshold": 0.17300000000000001,
+      "feasible": true,
+      "n_cal_flood_chips": 45,
+      "n_cal_chips": 53
+    }
+  },
+  "0.20": {
+    "both": {
+      "threshold": 0.228,
+      "feasible": true,
+      "n_cal_flood_chips": 45,
+      "n_cal_chips": 53
+    },
+    "radar_only": {
+      "threshold": 0.212,
+      "feasible": true,
+      "n_cal_flood_chips": 45,
+      "n_cal_chips": 53
+    },
+    "optical_only": {
+      "threshold": 0.229,
+      "feasible": true,
+      "n_cal_flood_chips": 45,
+      "n_cal_chips": 53
+    }
+  }
+}

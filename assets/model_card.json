@@ -1,0 +1,25 @@
+{
+  "run_mode": "one_day",
+  "seed": 0,
+  "params": 443719,
+  "preproc": {
+    "version": "2.0",
+    "img_size": 128,
+    "s1_clip": [
+      -35.0,
+      5.0
+    ],
+    "s2_scale": 10000.0,
+    "s2_clip_max": 1.5,
+    "s2_resample": "bilinear",
+    "label_resample": "nearest",
+    "ignore_index": 255,
+    "resize_img": "bilinear/align_corners=False",
+    "resize_label": "nearest"
+  },
+  "severities": [
+    0.0,
+    0.6,
+    0.9
+  ]
+}

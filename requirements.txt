@@ -1,0 +1,11 @@
+# CPU-only PyTorch is much smaller: pip install torch --index-url https://download.pytorch.org/whl/cpu
+streamlit>=1.36
+torch>=2.1
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+pillow>=10.0
+plotly>=5.18
+tifffile>=2023.7.10      # GeoTIFF upload (no GDAL/rasterio needed)
+imagecodecs>=2023.1.23   # LZW / other TIFF compressions
+pytest>=7.4
